@@ -24,3 +24,13 @@ console.log(data);
     .attr('fill', (d) => d.shot_made_flag ? 'green' : 'red')
 });
 
+// Make a dropdown showing all of the players
+// d3.nest()
+
+// When a player is selected, set all of the other players' shots to an opacity of 0.1
+// Use .property("value") as a getter
+
+// Other ideas:
+// Add a white rectangle behind the hover text
+// Use colors to mean something else
+// Filtering by something else, like shot type
